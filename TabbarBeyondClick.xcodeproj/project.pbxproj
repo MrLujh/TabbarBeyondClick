@@ -8,13 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		2E2B0EB61EA502390067196E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B0EB51EA502390067196E /* main.m */; };
-		2E2B0EB91EA502390067196E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B0EB81EA502390067196E /* AppDelegate.m */; };
-		2E2B0EBC1EA502390067196E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B0EBB1EA502390067196E /* ViewController.m */; };
 		2E2B0EBF1EA502390067196E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E2B0EBD1EA502390067196E /* Main.storyboard */; };
 		2E2B0EC11EA502390067196E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E2B0EC01EA502390067196E /* Assets.xcassets */; };
 		2E2B0EC41EA502390067196E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E2B0EC21EA502390067196E /* LaunchScreen.storyboard */; };
 		2E2B0ECF1EA502390067196E /* TabbarBeyondClickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B0ECE1EA502390067196E /* TabbarBeyondClickTests.m */; };
 		2E2B0EDA1EA502390067196E /* TabbarBeyondClickUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B0ED91EA502390067196E /* TabbarBeyondClickUITests.m */; };
+		2E2B0EED1EA5026F0067196E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B0EE91EA5026F0067196E /* AppDelegate.m */; };
+		2E2B0F081EA504BE0067196E /* TBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B0F071EA504BE0067196E /* TBNavigationController.m */; };
+		2E2B0F0B1EA504EB0067196E /* TBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B0F0A1EA504EB0067196E /* TBTabBarController.m */; };
+		2E2B0F0E1EA505120067196E /* TBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B0F0D1EA505120067196E /* TBHomeViewController.m */; };
+		2E2B0F111EA505220067196E /* TBFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B0F101EA505220067196E /* TBFindViewController.m */; };
+		2E2B0F141EA505310067196E /* TBCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B0F131EA505310067196E /* TBCardViewController.m */; };
+		2E2B0F171EA505410067196E /* TBMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B0F161EA505410067196E /* TBMeViewController.m */; };
+		2E2B0F1C1EA505D70067196E /* UIView+TBFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B0F1B1EA505D70067196E /* UIView+TBFrame.m */; };
+		2E2B0F211EA5078A0067196E /* TBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B0F201EA5078A0067196E /* TBTabBar.m */; };
+		2E3C8EC11EA8A5B800585459 /* TBPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3C8EC01EA8A5B800585459 /* TBPlayerViewController.m */; };
+		2E3C8ECA1EA8B3FE00585459 /* TBLiveChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3C8EC81EA8B3FE00585459 /* TBLiveChatViewController.m */; };
+		2E3C8ECB1EA8B3FE00585459 /* TBLiveChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E3C8EC91EA8B3FE00585459 /* TBLiveChatViewController.xib */; };
+		2E501F7B1EA5BF340062CA2E /* TBPlusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E501F7A1EA5BF340062CA2E /* TBPlusViewController.m */; };
+		2E501F7E1EA5C2FF0062CA2E /* UIButton+SSEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E501F7D1EA5C2FF0062CA2E /* UIButton+SSEdgeInsets.m */; };
+		2E501F841EA6F5310062CA2E /* UITabBar+TBBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E501F831EA6F5310062CA2E /* UITabBar+TBBadge.m */; };
+		2E501F871EA6F9BE0062CA2E /* TBHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E501F861EA6F9BE0062CA2E /* TBHotViewController.m */; };
+		2E501FE11EA85D1F0062CA2E /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E501FE01EA85D1F0062CA2E /* IJKMediaFramework.framework */; };
+		2E501FE71EA85D9A0062CA2E /* CESHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E501FE41EA85D9A0062CA2E /* CESHttpTool.m */; };
+		2E501FEB1EA861FE0062CA2E /* TBCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E501FEA1EA861FE0062CA2E /* TBCollectionViewCell.m */; };
+		2E501FEF1EA88D4A0062CA2E /* TBHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E501FEE1EA88D4A0062CA2E /* TBHomeModel.m */; };
+		2E501FF21EA88F160062CA2E /* TBcreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E501FF11EA88F160062CA2E /* TBcreator.m */; };
+		2E7B439E1EA5A514005A124A /* TBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7B439D1EA5A514005A124A /* TBBaseViewController.m */; };
+		2E7B43AB1EA5A688005A124A /* UIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7B43AA1EA5A688005A124A /* UIFactory.m */; };
+		54578D2356880489003C3D10 /* libPods-TabbarBeyondClick.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C00B9AA1B295798EECAD0D /* libPods-TabbarBeyondClick.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +59,6 @@
 /* Begin PBXFileReference section */
 		2E2B0EB11EA502390067196E /* TabbarBeyondClick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbarBeyondClick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E2B0EB51EA502390067196E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2E2B0EB71EA502390067196E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2E2B0EB81EA502390067196E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2E2B0EBA1EA502390067196E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2E2B0EBB1EA502390067196E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2E2B0EBE1EA502390067196E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E2B0EC01EA502390067196E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E2B0EC31EA502390067196E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +69,56 @@
 		2E2B0ED51EA502390067196E /* TabbarBeyondClickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabbarBeyondClickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E2B0ED91EA502390067196E /* TabbarBeyondClickUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbarBeyondClickUITests.m; sourceTree = "<group>"; };
 		2E2B0EDB1EA502390067196E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E2B0EE81EA5026F0067196E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E2B0EE91EA5026F0067196E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E2B0F061EA504BE0067196E /* TBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBNavigationController.h; sourceTree = "<group>"; };
+		2E2B0F071EA504BE0067196E /* TBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBNavigationController.m; sourceTree = "<group>"; };
+		2E2B0F091EA504EB0067196E /* TBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBTabBarController.h; sourceTree = "<group>"; };
+		2E2B0F0A1EA504EB0067196E /* TBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBTabBarController.m; sourceTree = "<group>"; };
+		2E2B0F0C1EA505120067196E /* TBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBHomeViewController.h; sourceTree = "<group>"; };
+		2E2B0F0D1EA505120067196E /* TBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBHomeViewController.m; sourceTree = "<group>"; };
+		2E2B0F0F1EA505220067196E /* TBFindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBFindViewController.h; sourceTree = "<group>"; };
+		2E2B0F101EA505220067196E /* TBFindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBFindViewController.m; sourceTree = "<group>"; };
+		2E2B0F121EA505310067196E /* TBCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCardViewController.h; sourceTree = "<group>"; };
+		2E2B0F131EA505310067196E /* TBCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCardViewController.m; sourceTree = "<group>"; };
+		2E2B0F151EA505410067196E /* TBMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBMeViewController.h; sourceTree = "<group>"; };
+		2E2B0F161EA505410067196E /* TBMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBMeViewController.m; sourceTree = "<group>"; };
+		2E2B0F1A1EA505D70067196E /* UIView+TBFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TBFrame.h"; sourceTree = "<group>"; };
+		2E2B0F1B1EA505D70067196E /* UIView+TBFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TBFrame.m"; sourceTree = "<group>"; };
+		2E2B0F1E1EA5069A0067196E /* TabbarBeyondClick.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarBeyondClick.pch; sourceTree = "<group>"; };
+		2E2B0F1F1EA5078A0067196E /* TBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBTabBar.h; sourceTree = "<group>"; };
+		2E2B0F201EA5078A0067196E /* TBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBTabBar.m; sourceTree = "<group>"; };
+		2E3C8EBF1EA8A5B800585459 /* TBPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBPlayerViewController.h; sourceTree = "<group>"; };
+		2E3C8EC01EA8A5B800585459 /* TBPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBPlayerViewController.m; sourceTree = "<group>"; };
+		2E3C8EC71EA8B3FE00585459 /* TBLiveChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBLiveChatViewController.h; sourceTree = "<group>"; };
+		2E3C8EC81EA8B3FE00585459 /* TBLiveChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBLiveChatViewController.m; sourceTree = "<group>"; };
+		2E3C8EC91EA8B3FE00585459 /* TBLiveChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TBLiveChatViewController.xib; sourceTree = "<group>"; };
+		2E501F791EA5BF340062CA2E /* TBPlusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBPlusViewController.h; sourceTree = "<group>"; };
+		2E501F7A1EA5BF340062CA2E /* TBPlusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBPlusViewController.m; sourceTree = "<group>"; };
+		2E501F7C1EA5C2FF0062CA2E /* UIButton+SSEdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SSEdgeInsets.h"; sourceTree = "<group>"; };
+		2E501F7D1EA5C2FF0062CA2E /* UIButton+SSEdgeInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SSEdgeInsets.m"; sourceTree = "<group>"; };
+		2E501F7F1EA5FBDC0062CA2E /* AppStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppStyle.h; sourceTree = "<group>"; };
+		2E501F821EA6F5310062CA2E /* UITabBar+TBBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+TBBadge.h"; sourceTree = "<group>"; };
+		2E501F831EA6F5310062CA2E /* UITabBar+TBBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+TBBadge.m"; sourceTree = "<group>"; };
+		2E501F851EA6F9BE0062CA2E /* TBHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBHotViewController.h; sourceTree = "<group>"; };
+		2E501F861EA6F9BE0062CA2E /* TBHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBHotViewController.m; sourceTree = "<group>"; };
+		2E501FE01EA85D1F0062CA2E /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		2E501FE31EA85D9A0062CA2E /* CESHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CESHttpTool.h; sourceTree = "<group>"; };
+		2E501FE41EA85D9A0062CA2E /* CESHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CESHttpTool.m; sourceTree = "<group>"; };
+		2E501FE91EA861FE0062CA2E /* TBCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCollectionViewCell.h; sourceTree = "<group>"; };
+		2E501FEA1EA861FE0062CA2E /* TBCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCollectionViewCell.m; sourceTree = "<group>"; };
+		2E501FEC1EA887840062CA2E /* APIConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIConfig.h; sourceTree = "<group>"; };
+		2E501FED1EA88D4A0062CA2E /* TBHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBHomeModel.h; sourceTree = "<group>"; };
+		2E501FEE1EA88D4A0062CA2E /* TBHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBHomeModel.m; sourceTree = "<group>"; };
+		2E501FF01EA88F160062CA2E /* TBcreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBcreator.h; sourceTree = "<group>"; };
+		2E501FF11EA88F160062CA2E /* TBcreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBcreator.m; sourceTree = "<group>"; };
+		2E7B439C1EA5A514005A124A /* TBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBBaseViewController.h; sourceTree = "<group>"; };
+		2E7B439D1EA5A514005A124A /* TBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBBaseViewController.m; sourceTree = "<group>"; };
+		2E7B43A91EA5A688005A124A /* UIFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFactory.h; sourceTree = "<group>"; };
+		2E7B43AA1EA5A688005A124A /* UIFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFactory.m; sourceTree = "<group>"; };
+		3F175A1C86298D0E55F7F628 /* Pods-TabbarBeyondClick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabbarBeyondClick.release.xcconfig"; path = "Pods/Target Support Files/Pods-TabbarBeyondClick/Pods-TabbarBeyondClick.release.xcconfig"; sourceTree = "<group>"; };
+		B7C00B9AA1B295798EECAD0D /* libPods-TabbarBeyondClick.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TabbarBeyondClick.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C1420A4231D1C136EA8757 /* Pods-TabbarBeyondClick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabbarBeyondClick.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TabbarBeyondClick/Pods-TabbarBeyondClick.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +126,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54578D2356880489003C3D10 /* libPods-TabbarBeyondClick.a in Frameworks */,
+				2E501FE11EA85D1F0062CA2E /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +148,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A92E29ED990C020BFB66B48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4C1420A4231D1C136EA8757 /* Pods-TabbarBeyondClick.debug.xcconfig */,
+				3F175A1C86298D0E55F7F628 /* Pods-TabbarBeyondClick.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2E2B0EA81EA502390067196E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +164,8 @@
 				2E2B0ECD1EA502390067196E /* TabbarBeyondClickTests */,
 				2E2B0ED81EA502390067196E /* TabbarBeyondClickUITests */,
 				2E2B0EB21EA502390067196E /* Products */,
+				1A92E29ED990C020BFB66B48 /* Pods */,
+				7E3F3B4B7215A71A2AAB9B78 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +182,13 @@
 		2E2B0EB31EA502390067196E /* TabbarBeyondClick */ = {
 			isa = PBXGroup;
 			children = (
-				2E2B0EB71EA502390067196E /* AppDelegate.h */,
-				2E2B0EB81EA502390067196E /* AppDelegate.m */,
-				2E2B0EBA1EA502390067196E /* ViewController.h */,
-				2E2B0EBB1EA502390067196E /* ViewController.m */,
-				2E2B0EBD1EA502390067196E /* Main.storyboard */,
-				2E2B0EC01EA502390067196E /* Assets.xcassets */,
-				2E2B0EC21EA502390067196E /* LaunchScreen.storyboard */,
-				2E2B0EC51EA502390067196E /* Info.plist */,
+				2E501FDF1EA85D180062CA2E /* Frame */,
+				2E2B0F1D1EA506830067196E /* PCH */,
+				2E501FE21EA85D9A0062CA2E /* Http */,
+				2E2B0EE71EA5026F0067196E /* AppDelegate */,
+				2E2B0F021EA503500067196E /* Main */,
+				2E2B0EEF1EA503500067196E /* Classes */,
+				2E2B0F181EA505C20067196E /* Other */,
 				2E2B0EB41EA502390067196E /* Supporting Files */,
 			);
 			path = TabbarBeyondClick;
@@ -117,6 +197,10 @@
 		2E2B0EB41EA502390067196E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2E2B0EBD1EA502390067196E /* Main.storyboard */,
+				2E2B0EC01EA502390067196E /* Assets.xcassets */,
+				2E2B0EC21EA502390067196E /* LaunchScreen.storyboard */,
+				2E2B0EC51EA502390067196E /* Info.plist */,
 				2E2B0EB51EA502390067196E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +224,310 @@
 			path = TabbarBeyondClickUITests;
 			sourceTree = "<group>";
 		};
+		2E2B0EE71EA5026F0067196E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2E2B0EE81EA5026F0067196E /* AppDelegate.h */,
+				2E2B0EE91EA5026F0067196E /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2E2B0EEF1EA503500067196E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2E2B0EF81EA503500067196E /* Home */,
+				2E2B0EF41EA503500067196E /* Find */,
+				2E501F751EA5BF340062CA2E /* Plus */,
+				2E2B0EF01EA503500067196E /* Card */,
+				2E2B0EFE1EA503500067196E /* Me */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2E2B0EF01EA503500067196E /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				2E2B0EF11EA503500067196E /* Model */,
+				2E2B0EF21EA503500067196E /* View */,
+				2E2B0EF31EA503500067196E /* ViewController */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		2E2B0EF11EA503500067196E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E2B0EF21EA503500067196E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E2B0EF31EA503500067196E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2E2B0F121EA505310067196E /* TBCardViewController.h */,
+				2E2B0F131EA505310067196E /* TBCardViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2E2B0EF41EA503500067196E /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				2E2B0EF51EA503500067196E /* Model */,
+				2E2B0EF61EA503500067196E /* View */,
+				2E2B0EF71EA503500067196E /* ViewController */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		2E2B0EF51EA503500067196E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E2B0EF61EA503500067196E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E2B0EF71EA503500067196E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2E2B0F0F1EA505220067196E /* TBFindViewController.h */,
+				2E2B0F101EA505220067196E /* TBFindViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2E2B0EF81EA503500067196E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2E2B0EF91EA503500067196E /* Model */,
+				2E2B0EFA1EA503500067196E /* View */,
+				2E2B0EFB1EA503500067196E /* ViewController */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2E2B0EF91EA503500067196E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E501FED1EA88D4A0062CA2E /* TBHomeModel.h */,
+				2E501FEE1EA88D4A0062CA2E /* TBHomeModel.m */,
+				2E501FF01EA88F160062CA2E /* TBcreator.h */,
+				2E501FF11EA88F160062CA2E /* TBcreator.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E2B0EFA1EA503500067196E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E501FE91EA861FE0062CA2E /* TBCollectionViewCell.h */,
+				2E501FEA1EA861FE0062CA2E /* TBCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E2B0EFB1EA503500067196E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2E2B0F0C1EA505120067196E /* TBHomeViewController.h */,
+				2E2B0F0D1EA505120067196E /* TBHomeViewController.m */,
+				2E3C8EBF1EA8A5B800585459 /* TBPlayerViewController.h */,
+				2E3C8EC01EA8A5B800585459 /* TBPlayerViewController.m */,
+				2E3C8EC71EA8B3FE00585459 /* TBLiveChatViewController.h */,
+				2E3C8EC81EA8B3FE00585459 /* TBLiveChatViewController.m */,
+				2E3C8EC91EA8B3FE00585459 /* TBLiveChatViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2E2B0EFE1EA503500067196E /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				2E2B0EFF1EA503500067196E /* Model */,
+				2E2B0F001EA503500067196E /* View */,
+				2E2B0F011EA503500067196E /* ViewController */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		2E2B0EFF1EA503500067196E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E2B0F001EA503500067196E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E2B0F011EA503500067196E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2E2B0F151EA505410067196E /* TBMeViewController.h */,
+				2E2B0F161EA505410067196E /* TBMeViewController.m */,
+				2E501F851EA6F9BE0062CA2E /* TBHotViewController.h */,
+				2E501F861EA6F9BE0062CA2E /* TBHotViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2E2B0F021EA503500067196E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2E7B439B1EA5A507005A124A /* Base */,
+				2E2B0F041EA503500067196E /* ViewController */,
+				2E2B0F031EA503500067196E /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2E2B0F031EA503500067196E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E2B0F1F1EA5078A0067196E /* TBTabBar.h */,
+				2E2B0F201EA5078A0067196E /* TBTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E2B0F041EA503500067196E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2E2B0F061EA504BE0067196E /* TBNavigationController.h */,
+				2E2B0F071EA504BE0067196E /* TBNavigationController.m */,
+				2E2B0F091EA504EB0067196E /* TBTabBarController.h */,
+				2E2B0F0A1EA504EB0067196E /* TBTabBarController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2E2B0F181EA505C20067196E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2E7B439F1EA5A5F2005A124A /* Tools */,
+				2E2B0F191EA505C20067196E /* Category */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		2E2B0F191EA505C20067196E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2E501F7C1EA5C2FF0062CA2E /* UIButton+SSEdgeInsets.h */,
+				2E501F7D1EA5C2FF0062CA2E /* UIButton+SSEdgeInsets.m */,
+				2E2B0F1A1EA505D70067196E /* UIView+TBFrame.h */,
+				2E2B0F1B1EA505D70067196E /* UIView+TBFrame.m */,
+				2E501F821EA6F5310062CA2E /* UITabBar+TBBadge.h */,
+				2E501F831EA6F5310062CA2E /* UITabBar+TBBadge.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2E2B0F1D1EA506830067196E /* PCH */ = {
+			isa = PBXGroup;
+			children = (
+				2E2B0F1E1EA5069A0067196E /* TabbarBeyondClick.pch */,
+				2E501F7F1EA5FBDC0062CA2E /* AppStyle.h */,
+				2E501FEC1EA887840062CA2E /* APIConfig.h */,
+			);
+			path = PCH;
+			sourceTree = "<group>";
+		};
+		2E501F751EA5BF340062CA2E /* Plus */ = {
+			isa = PBXGroup;
+			children = (
+				2E501F761EA5BF340062CA2E /* Model */,
+				2E501F771EA5BF340062CA2E /* View */,
+				2E501F781EA5BF340062CA2E /* ViewController */,
+			);
+			path = Plus;
+			sourceTree = "<group>";
+		};
+		2E501F761EA5BF340062CA2E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E501F771EA5BF340062CA2E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E501F781EA5BF340062CA2E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2E501F791EA5BF340062CA2E /* TBPlusViewController.h */,
+				2E501F7A1EA5BF340062CA2E /* TBPlusViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2E501FDF1EA85D180062CA2E /* Frame */ = {
+			isa = PBXGroup;
+			children = (
+				2E501FE01EA85D1F0062CA2E /* IJKMediaFramework.framework */,
+			);
+			path = Frame;
+			sourceTree = "<group>";
+		};
+		2E501FE21EA85D9A0062CA2E /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				2E501FE31EA85D9A0062CA2E /* CESHttpTool.h */,
+				2E501FE41EA85D9A0062CA2E /* CESHttpTool.m */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		2E7B439B1EA5A507005A124A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2E7B439C1EA5A514005A124A /* TBBaseViewController.h */,
+				2E7B439D1EA5A514005A124A /* TBBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2E7B439F1EA5A5F2005A124A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				2E7B43A91EA5A688005A124A /* UIFactory.h */,
+				2E7B43AA1EA5A688005A124A /* UIFactory.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		7E3F3B4B7215A71A2AAB9B78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7C00B9AA1B295798EECAD0D /* libPods-TabbarBeyondClick.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +535,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E2B0EDE1EA502390067196E /* Build configuration list for PBXNativeTarget "TabbarBeyondClick" */;
 			buildPhases = (
+				6EF478215DF84F8A9811F01A /* [CP] Check Pods Manifest.lock */,
 				2E2B0EAD1EA502390067196E /* Sources */,
 				2E2B0EAE1EA502390067196E /* Frameworks */,
 				2E2B0EAF1EA502390067196E /* Resources */,
+				A917D22F548CD97CD1B0D176 /* [CP] Embed Pods Frameworks */,
+				F8C8A3B710BCB5F888B50EA9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,11 +593,13 @@
 		2E2B0EA91EA502390067196E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TB;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = lujh;
 				TargetAttributes = {
 					2E2B0EB01EA502390067196E = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = X87UGUUQ2J;
 						ProvisioningStyle = Automatic;
 					};
 					2E2B0EC91EA502390067196E = {
@@ -246,6 +639,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E3C8ECB1EA8B3FE00585459 /* TBLiveChatViewController.xib in Resources */,
 				2E2B0EC41EA502390067196E /* LaunchScreen.storyboard in Resources */,
 				2E2B0EC11EA502390067196E /* Assets.xcassets in Resources */,
 				2E2B0EBF1EA502390067196E /* Main.storyboard in Resources */,
@@ -268,14 +662,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6EF478215DF84F8A9811F01A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A917D22F548CD97CD1B0D176 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabbarBeyondClick/Pods-TabbarBeyondClick-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8C8A3B710BCB5F888B50EA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabbarBeyondClick/Pods-TabbarBeyondClick-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2E2B0EAD1EA502390067196E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E2B0EBC1EA502390067196E /* ViewController.m in Sources */,
-				2E2B0EB91EA502390067196E /* AppDelegate.m in Sources */,
+				2E3C8ECA1EA8B3FE00585459 /* TBLiveChatViewController.m in Sources */,
+				2E501FF21EA88F160062CA2E /* TBcreator.m in Sources */,
+				2E501F871EA6F9BE0062CA2E /* TBHotViewController.m in Sources */,
+				2E501F7B1EA5BF340062CA2E /* TBPlusViewController.m in Sources */,
+				2E2B0F1C1EA505D70067196E /* UIView+TBFrame.m in Sources */,
+				2E501F7E1EA5C2FF0062CA2E /* UIButton+SSEdgeInsets.m in Sources */,
+				2E501FEB1EA861FE0062CA2E /* TBCollectionViewCell.m in Sources */,
+				2E3C8EC11EA8A5B800585459 /* TBPlayerViewController.m in Sources */,
+				2E7B439E1EA5A514005A124A /* TBBaseViewController.m in Sources */,
+				2E2B0F141EA505310067196E /* TBCardViewController.m in Sources */,
+				2E2B0F111EA505220067196E /* TBFindViewController.m in Sources */,
+				2E501FEF1EA88D4A0062CA2E /* TBHomeModel.m in Sources */,
+				2E2B0F0B1EA504EB0067196E /* TBTabBarController.m in Sources */,
+				2E2B0F211EA5078A0067196E /* TBTabBar.m in Sources */,
+				2E2B0F081EA504BE0067196E /* TBNavigationController.m in Sources */,
+				2E2B0EED1EA5026F0067196E /* AppDelegate.m in Sources */,
+				2E501F841EA6F5310062CA2E /* UITabBar+TBBadge.m in Sources */,
+				2E2B0F171EA505410067196E /* TBMeViewController.m in Sources */,
 				2E2B0EB61EA502390067196E /* main.m in Sources */,
+				2E501FE71EA85D9A0062CA2E /* CESHttpTool.m in Sources */,
+				2E7B43AB1EA5A688005A124A /* UIFactory.m in Sources */,
+				2E2B0F0E1EA505120067196E /* TBHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,23 +885,45 @@
 		};
 		2E2B0EDF1EA502390067196E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C1420A4231D1C136EA8757 /* Pods-TabbarBeyondClick.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X87UGUUQ2J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TabbarBeyondClick/Frame",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/TabbarBeyondClick/PCH/TabbarBeyondClick.pch";
 				INFOPLIST_FILE = TabbarBeyondClick/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.28792907-qq.TabbarBeyondClick";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		2E2B0EE01EA502390067196E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F175A1C86298D0E55F7F628 /* Pods-TabbarBeyondClick.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X87UGUUQ2J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TabbarBeyondClick/Frame",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/TabbarBeyondClick/PCH/TabbarBeyondClick.pch";
 				INFOPLIST_FILE = TabbarBeyondClick/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.28792907-qq.TabbarBeyondClick";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -509,6 +992,7 @@
 				2E2B0EE01EA502390067196E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E2B0EE11EA502390067196E /* Build configuration list for PBXNativeTarget "TabbarBeyondClickTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +1001,7 @@
 				2E2B0EE31EA502390067196E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E2B0EE41EA502390067196E /* Build configuration list for PBXNativeTarget "TabbarBeyondClickUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +1010,7 @@
 				2E2B0EE61EA502390067196E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

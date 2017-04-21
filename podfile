@@ -1,0 +1,10 @@
+platform :ios, '8.0'
+target ‘TabbarBeyondClick’ do 
+  pod 'AFNetworking' ,'2.3'
+  pod ‘MJRefresh’
+  pod ‘MJExtension’
+  pod ‘SDWebImage’
+  pod 'LFLiveKit'
+  pod 'LMGPUImage'
+  pod 'Masonry'
+end    

@@ -1,0 +1,25 @@
+//
+//  TabbarBeyondClick.pch
+//  TabbarBeyondClick
+//
+//  Created by 卢家浩 on 2017/4/17.
+//  Copyright © 2017年 lujh. All rights reserved.
+//
+
+#ifndef TabbarBeyondClick_pch
+#define TabbarBeyondClick_pch
+
+#import "UIView+TBFrame.h"
+#import "UIFactory.h"
+#import "UIButton+SSEdgeInsets.h"
+#import "AppStyle.h"
+#import "APIConfig.h"
+#import "UITabBar+TBBadge.h"
+#import <AFNetworking.h>
+#import <MJExtension.h>
+#import "CESHttpTool.h"
+#import <UIImageView+WebCache.h>
+#import <IJKMediaFramework/IJKMediaFramework.h>
+#import <UIButton+WebCache.h>
+#import <Masonry.h>
+#endif /* TabbarBeyondClick_pch */
